@@ -468,6 +468,7 @@ namespace NetCoreForce.Client
         /// Delete multiple reocrds.
         /// The list can contain up to 200 ids.
         /// </summary>
+        /// <param name="ids"></param>
         /// <param name="allOrNone">Optional. Indicates whether to roll back the entire request when the update of any object fails (true) or to continue with the independent update of other objects in the request. The default is false.</param>
         /// <param name="customHeaders">Custom headers to include in request (Optional). await The HeaderFormatter helper class can be used to generate the custom header as needed.</param>
         /// <returns>List of UpdateMultipleResponse objects, includes response for each object (id, success, errors)</returns>
